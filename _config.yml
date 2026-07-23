@@ -1,0 +1,15 @@
+title: Learning Power BI
+description: My PL-300 study notes, documented as I went.
+remote_theme: just-the-docs/just-the-docs
+
+# Enables the search bar
+search_enabled: true
+
+# Adds "Edit this page on GitHub" links (optional — remove these two lines if you don't want them)
+# gh_edit_link: true
+# gh_edit_repository: "https://github.com/YOUR-USERNAME/YOUR-REPO-NAME"
+
+nav_sort: case_insensitive
+
+# Footer
+footer_content: "Notes written while studying for Microsoft's PL-300 certification."
