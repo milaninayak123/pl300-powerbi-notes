@@ -23,6 +23,6 @@ Microsoft's PL-300 (Power BI Data Analyst Associate) certification covers a lot 
 
 If you're prepping for PL-300, working toward a Data Analyst role, or just curious how Power BI actually fits together — hopefully this saves you some time.
 
-## About me
+## About me 
 
-I'm Milani, a Data Analyst documenting what I learn as I learn it. Connect with me on [LinkedIn](#) or check out my [portfolio](#).
+I'm Milani, a Data Analyst documenting what I learn as I learn it. Connect with me on [LinkedIn](https://www.linkedin.com/in/milaninayak/).
