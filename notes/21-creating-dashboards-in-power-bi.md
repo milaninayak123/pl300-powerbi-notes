@@ -7,6 +7,8 @@ nav_order: 21
 
 # Part 21 — Creating Dashboards in Power BI
 
+*Pinning tiles, Data Alerts, and Copilot/Quick Insights on dashboards.*
+
 Parts 2 and 18 already covered the Dashboard vs. Report distinction — single-page, Service-only, built from pinned tiles. This part is about actually building one.
 
 ## Tiles and Pinning
