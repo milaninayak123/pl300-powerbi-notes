@@ -7,6 +7,8 @@ nav_order: 14
 
 # Part 14 — Performance Optimization
 
+*The seven golden rules for keeping a Power BI model fast.*
+
 Every idea in this part serves one goal: **a smaller model performs better** — faster loads, faster refreshes, less memory.
 
 ## What Slows a Model Down
