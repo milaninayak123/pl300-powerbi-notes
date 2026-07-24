@@ -7,6 +7,8 @@ nav_order: 5
 
 # Part 5 — Optimizing Performance & Fixing Import Errors
 
+*Query Folding, Query Diagnostics, and fixing the most common data import errors.*
+
 Getting GreenCart's data in is one thing; getting it in *fast*, and knowing what to do when something breaks, is the other half of the job.
 
 ## Query Folding — Still the Most Important Lever
