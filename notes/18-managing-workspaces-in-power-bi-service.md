@@ -7,6 +7,8 @@ nav_order: 18
 
 # Part 18 — Managing Workspaces in Power BI Service
 
+*Workspaces, workspace roles, apps, and publishing from Desktop to Service.*
+
 Everything so far has happened in Power BI Desktop. This part covers what happens after: publishing GreenCart's reports to the cloud so the wider team can actually use them.
 
 ## Power BI Service — the Web Version
