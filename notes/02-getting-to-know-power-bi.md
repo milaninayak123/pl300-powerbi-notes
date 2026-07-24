@@ -45,7 +45,7 @@ The regional manager, though, doesn't want to dig through five pages every morni
 
 > ⚠️ **Common mix-up:** people use "report" and "dashboard" interchangeably in casual conversation, but Power BI treats them as genuinely different objects, built in different places.
 
-The analogy that sticks: **a dashboard is like your car's dashboard** — a glance tells you the essentials. If something looks off, you "open the hood" (the full report) for detail.
+The analogy that sticks: **a dashboard is like your car's dashboard**. A glance tells you the essentials. If something looks off, you "open the hood" (the full report) for detail.
 
 ## Workspaces and Apps
 
