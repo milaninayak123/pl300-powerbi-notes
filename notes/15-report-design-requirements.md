@@ -7,6 +7,8 @@ nav_order: 15
 
 # Part 15 — Report Design Requirements
 
+*Knowing your audience, the four report types, and UI vs. UX.*
+
 Before building anything, a good report starts with a simple question: who's actually going to look at this, and what do they need from it? This part covers that groundwork; Part 16 gets into actually building the report.
 
 ## The Three Audiences
