@@ -7,6 +7,8 @@ nav_order: 8
 
 # Part 8 — Data Modeling Foundations: Star Schema & Model Frameworks
 
+*Filter → Group → Summarize, fact vs. dimension tables, and choosing between Import, DirectQuery, and Composite models.*
+
 GreenCart's data is now connected and clean. The next question is how to structure it so Power BI can actually reason about it — this is **data modeling**, and it's arguably the most important skill in the whole PL-300 syllabus.
 
 ## Semantic Model, Dataset — Same Thing, Different Stage
