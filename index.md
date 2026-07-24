@@ -19,7 +19,7 @@ Microsoft's PL-300 (Power BI Data Analyst Associate) certification covers a lot 
 
 ## What's here
 
-22 parts covering the course start to finish: from "what even is data analysis" all the way through DAX, report design, and securing data in the Power BI Service. Every concept is explained through one running example (a fictional grocery-delivery company), so the ideas build on each other instead of reading like disconnected flashcards. Along the way, callouts flag the spots that tend to show up in interviews and exam questions.
+22 parts covering the course start to finish: from "what even is data analysis" all the way through DAX, report design, and securing data in the Power BI Service. Every concept is explained through one running example (a fictional grocery-delivery company), so the ideas build on each other instead of reading like disconnected flashcards. Along the way, callouts flag the spots that tend to show up in interviews and exam questions. A 23rd part rounds it out as a DAX cookbook, real, ready-to-adapt formulas for the measures and calculated columns you'll actually write day to day.
 
 If you're prepping for PL-300, working toward a Data Analyst role, or just curious how Power BI actually fits together, hopefully this saves you some time.
 
