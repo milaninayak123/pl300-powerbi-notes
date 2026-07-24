@@ -7,6 +7,8 @@ nav_order: 20
 
 # Part 20 — Choosing a Content Distribution Method
 
+*Workspace sharing vs. Item-level sharing vs. Apps, Audiences, and sensitivity labels.*
+
 The GreenCart model and reports are built and trustworthy. The last question: how do different people across the company actually get access to them?
 
 ## Three Ways to Share Content
