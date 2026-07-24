@@ -7,6 +7,8 @@ nav_order: 22
 
 # Part 22 — Secure Data Access in Power BI
 
+*Row-Level Security, Object-Level Security, and the limitation almost everyone misses.*
+
 One GreenCart sales report, many regional managers — but a West-region manager shouldn't see East-region numbers. That's what this part covers.
 
 ## Row-Level Security (RLS)
