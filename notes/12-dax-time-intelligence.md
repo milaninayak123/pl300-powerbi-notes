@@ -7,6 +7,8 @@ nav_order: 12
 
 # Part 12 — DAX Time Intelligence
 
+*YTD/MTD calculations, and the snapshot-data trap almost everyone falls into.*
+
 **Time Intelligence** just means date-based calculations — YTD, MTD, QTD, Year-over-Year growth, new customers this month. All of it works by automatically shifting the date filter context.
 
 **Prerequisite:** none of this works without a proper Date table, marked as the Date Table, with continuous, unique dates — the same requirement from Part 9.
