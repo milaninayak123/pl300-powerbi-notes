@@ -7,6 +7,8 @@ nav_order: 9
 
 # Part 9 — Configuring the Semantic Model
 
+*Renaming, hiding, marking a Date table, and the Data Type vs. Format distinction that trips people up.*
+
 GreenCart's model now has the right structure — a star schema with Orders as the fact table and Products, Customers, Dates as dimensions. But the tables are still full of database-style names and defaults nobody wants report authors to see. This part is about polishing that.
 
 ## Tables — Make Them Make Sense
