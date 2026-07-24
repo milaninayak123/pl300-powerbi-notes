@@ -7,6 +7,8 @@ nav_order: 4
 
 # Part 4 — Getting Data into Power BI
 
+*Connecting to SQL Server, NoSQL, and online services, plus dynamic reports with parameters and choosing a storage mode.*
+
 With the big picture out of the way, let's get practical: how does GreenCart's data actually get *into* Power BI?
 
 ## Where Data Comes From
