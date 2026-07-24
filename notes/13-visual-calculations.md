@@ -7,6 +7,8 @@ nav_order: 13
 
 # Part 13 — Visual Calculations
 
+*DAX written directly on a visual, and when to use one instead of a model-level measure.*
+
 **Visual Calculations** are DAX written directly on a visual instead of in the semantic model — they only exist for that one chart or table.
 
 > **Measure → model-level, reusable everywhere. Visual Calculation → visual-level, lives on one chart only.**
