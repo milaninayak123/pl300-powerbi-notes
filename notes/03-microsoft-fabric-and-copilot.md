@@ -7,6 +7,8 @@ nav_order: 3
 
 # Part 3 — Microsoft Fabric & Copilot (The Bigger Ecosystem)
 
+*Why Fabric exists, what OneLake does, and how Copilot threads through the whole Power BI workflow.*
+
 Power BI doesn't work alone. As GreenCart grows — more warehouses, more cities, a data science team building delivery-time predictions — its data needs outgrow a single tool. That's where **Microsoft Fabric** comes in.
 
 ## What Is Fabric, and Why Does It Exist?
