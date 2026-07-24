@@ -7,6 +7,8 @@ nav_order: 6
 
 # Part 6 — Cleaning & Shaping Data with Power Query
 
+*Headers, unpivot vs. pivot, replacing nulls, and why data types matter more than they look.*
+
 GreenCart's raw Orders data is now connected — but it's rarely usable as-is. This part covers the everyday cleanup work in Power Query Editor.
 
 ## Getting Into the Editor
