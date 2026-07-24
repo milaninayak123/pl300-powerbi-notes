@@ -11,6 +11,20 @@ nav_order: 6
 
 GreenCart's raw Orders data is now connected — but it's rarely usable as-is. This part covers the everyday cleanup work in Power Query Editor.
 
+## The Pre-Flight Checklist — Scan for These First
+
+Before touching any specific tool, run this mental sweep over new data. This is the instinct experienced analysts have before they start clicking through fixes one by one:
+
+1. **Are the headers actually headers?** Or did the real header row land as a normal data row?
+2. **Any junk rows sitting above the real data?** Common with Excel exports that have a title block up top.
+3. **Any columns you'll never use?** Remove them now, not later, smaller model, cleaner relationships.
+4. **Any typos or inconsistent spelling in text columns?** Misspelled months, inconsistent city names ("Bengaluru" vs "Bangalore").
+5. **Any nulls in numeric columns?** These silently skew sums and averages if left unhandled.
+6. **Any duplicate rows where there shouldn't be any?** Especially in lookup-style tables (a customer list, a product list).
+7. **Is every column actually typed correctly?** Not just "looks like a date", genuinely set to Date type, not Text.
+
+Every fix below maps to one of these seven checks. Once this scan becomes automatic, cleaning a new dataset stops feeling like guessing and starts feeling like running through a list.
+
 ## Getting Into the Editor
 
 **Home → Transform Data** opens it: your table in the middle, all your tables listed on the left, every change you make logged as a step on the right. One thing worth knowing early: Power Query only edits a *view* — GreenCart's original database is never touched — and every step reruns automatically on each refresh.
@@ -66,20 +80,6 @@ Orders YTD = TOTALYTD(SUM(Orders[OrderQty]), Orders[OrderDate])
 This errors out unless `OrderDate` is properly typed as Date — and you also lose the ability to build a Year → Month → Week drill-down hierarchy.
 
 **Fix it in Power Query, before loading.** The fix gets logged as a step called **Changed Type**, which reapplies automatically every refresh — unlike a fix made later in Report view, which won't survive the next refresh.
-
-## The Pre-Flight Checklist — Scan for These First
-
-Before touching any specific tool, run this mental sweep over new data. This is the instinct experienced analysts have before they start clicking through fixes one by one:
-
-1. **Are the headers actually headers?** Or did the real header row land as a normal data row?
-2. **Any junk rows sitting above the real data?** Common with Excel exports that have a title block up top.
-3. **Any columns you'll never use?** Remove them now, not later, smaller model, cleaner relationships.
-4. **Any typos or inconsistent spelling in text columns?** Misspelled months, inconsistent city names ("Bengaluru" vs "Bangalore").
-5. **Any nulls in numeric columns?** These silently skew sums and averages if left unhandled.
-6. **Any duplicate rows where there shouldn't be any?** Especially in lookup-style tables (a customer list, a product list).
-7. **Is every column actually typed correctly?** Not just "looks like a date", genuinely set to Date type, not Text.
-
-Every fix below maps to one of these seven checks. Once this scan becomes automatic, cleaning a new dataset stops feeling like guessing and starts feeling like running through a list.
 
 ## Quick Revision
 
