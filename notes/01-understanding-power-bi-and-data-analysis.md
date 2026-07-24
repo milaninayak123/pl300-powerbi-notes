@@ -7,6 +7,8 @@ nav_order: 1
 
 # Part 1 — Understanding Power BI & Data Analysis
 
+*What data analysis actually is, the four types of analytics, and the five things a Data Analyst does — all through GreenCart's West-region sales drop.*
+
 ## Meet GreenCart
 
 Throughout this guide, we'll follow one company: **GreenCart**, a fictional online grocery delivery business operating in a handful of Indian cities. GreenCart sells fruits, vegetables, dairy, snacks, and household essentials through an app, delivered by a fleet of riders from local warehouses.
