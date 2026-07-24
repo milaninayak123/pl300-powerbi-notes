@@ -46,7 +46,7 @@ Based on all of the above: increase rider incentives during rain, launch a match
 | Predictive | What's likely next? | Possible further 10% drop if rain continues |
 | Prescriptive | What should we do? | Rider incentives + discount campaign + pre-stocking |
 
-> ⚠️ **Common mix-up:** people often blur descriptive and diagnostic together. The test is simple — descriptive never explains *why*, it only reports *what*. If a sentence includes a reason, it's already diagnostic.
+> ⚠️ **Common mix-up:** people often blur descriptive and diagnostic together. The test is simple. Descriptive never explains *why*, it only reports *what*. If a sentence includes a reason, it's already diagnostic.
 >
 > Another trap: predictive analytics gives a *probability*, not a promise. An interviewer may ask "does predictive analytics guarantee the outcome?" The answer is no, it extrapolates patterns forward, and those patterns can break.
 
