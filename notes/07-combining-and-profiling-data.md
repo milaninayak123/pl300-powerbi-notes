@@ -7,6 +7,8 @@ nav_order: 7
 
 # Part 7 — Combining & Profiling Data
 
+*Append vs. Merge, and reading Column Quality, Distinct vs. Unique, and Column Profile before trusting your data.*
+
 Two things in this part: stitching multiple GreenCart tables into one, and actually inspecting the data before trusting it.
 
 ## Append vs. Merge — the Pair People Mix Up
