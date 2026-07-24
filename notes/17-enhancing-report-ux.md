@@ -7,6 +7,8 @@ nav_order: 17
 
 # Part 17 — Enhancing Report UX
 
+*Drillthrough, tooltips, buttons, bookmarks, and building a proper mobile layout.*
+
 A report shouldn't dump everything on one page. The right flow is **High-Level KPIs → Supporting Charts → Detailed Data** — let the viewer choose how deep to go.
 
 ## Getting to Detail Without Clutter
