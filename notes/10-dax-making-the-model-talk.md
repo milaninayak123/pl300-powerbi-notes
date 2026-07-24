@@ -7,6 +7,8 @@ nav_order: 10
 
 # Part 10 — DAX: Making the Model Talk
 
+*Calculated Column vs. Measure, the core DAX functions, and a first look at CALCULATE and filter context.*
+
 GreenCart's model is clean, structured, and named sensibly. Now it needs to actually answer questions — total sales, profit margin, year-over-year growth. That's what **DAX (Data Analysis Expressions)** is for.
 
 > **Power Query prepares the data. DAX analyzes it.** Power Query's work happens before data loads into the model; DAX works after — turning stored data into calculations, KPIs, and business logic.
