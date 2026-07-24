@@ -9,7 +9,7 @@ permalink: /
 # My PL-300 Study Notes: From Day One to Done
 {: .fs-9 }
 
-Microsoft's PL-300 (Power BI Data Analyst Associate) certification covers a lot of ground: getting data in, cleaning it, modeling it, writing DAX, building reports, and managing it all securely. Instead of just taking notes for myself, I decided to document the whole thing properly, in case it helps anyone else studying for the same exam or working toward a Data Analyst role.
+Microsoft's PL-300 (Power BI Data Analyst Associate) certification covers a lot of ground: getting data in, cleaning it, modeling it, writing DAX, building reports, and managing it all securely. Instead of just taking notes for myself, I decided to document the whole thing properly, in case it helps anyone else studying for the same exam or working towards a Data Analyst role.
 {: .fs-6 .fw-300 }
 
 [Start reading →](notes/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
