@@ -7,6 +7,8 @@ nav_order: 16
 
 # Part 16 — Designing Power BI Reports: Layout, Visuals & Filters
 
+*Layout principles and a full guide to choosing the right visual for the job.*
+
 With the groundwork from Part 15 in place, here's how a GreenCart report actually gets built and laid out.
 
 ## Report Structure
