@@ -7,6 +7,8 @@ nav_order: 2
 
 # Part 2 — Getting to Know Power BI (The Tool Itself)
 
+*Desktop vs. Service vs. Mobile, and the real difference between a report and a dashboard.*
+
 Part 1 was about data analysis as a discipline. Now let's talk about the actual tool GreenCart's analysts use to do it: **Power BI**.
 
 Power BI is a business intelligence tool — it connects to data, lets you clean and shape it, model it, build visuals, and share the result as interactive reports and dashboards. It scales from a single analyst working off one Excel sheet, all the way up to GreenCart's entire company pulling from a live orders database.
