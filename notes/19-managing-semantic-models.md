@@ -7,6 +7,8 @@ nav_order: 19
 
 # Part 19 — Managing Semantic Models
 
+*Gateways, scheduled vs. incremental refresh, and endorsing trusted models.*
+
 A semantic model — GreenCart's Orders + Products + Customers structure from Parts 8–9 — shouldn't be rebuilt for every new report. This part covers keeping that one model current, trusted, and reusable.
 
 ## Why Manage Semantic Models Centrally
