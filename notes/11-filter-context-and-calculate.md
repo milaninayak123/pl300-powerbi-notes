@@ -7,6 +7,8 @@ nav_order: 11
 
 # Part 11 — Filter Context & CALCULATE
 
+*A deep dive into the single most important DAX topic: filter context, CALCULATE, and Context Transition.*
+
 Part 10 introduced `CALCULATE()` and filter context briefly. This part goes deep on both — and honestly, if you only fully understand one topic in all of DAX, make it this one. Filter Context, `CALCULATE()`, and Context Transition together cover most of what real-world Power BI development actually looks like.
 
 ## 1. What Is Filter Context?
