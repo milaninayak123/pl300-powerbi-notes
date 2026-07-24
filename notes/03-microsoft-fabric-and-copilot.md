@@ -9,19 +9,19 @@ nav_order: 3
 
 *Why Fabric exists, what OneLake does, and how Copilot threads through the whole Power BI workflow.*
 
-Power BI doesn't work alone. As GreenCart grows — more warehouses, more cities, a data science team building delivery-time predictions — its data needs outgrow a single tool. That's where **Microsoft Fabric** comes in.
+Power BI doesn't work alone. As GreenCart grows more warehouses, more cities, a data science team building delivery-time predictions. Its data needs outgrow a single tool. That's where **Microsoft Fabric** comes in.
 
 ## What Is Fabric, and Why Does It Exist?
 
-Before Fabric, GreenCart's data would've been scattered: one tool for moving data around, another for warehousing it, Power BI for reporting, a separate ML tool for predictions. Every team works off its own copy of the data — more duplication, more cost, more chances for numbers to disagree.
+Before Fabric, GreenCart's data would've been scattered: one tool for moving data around, another for warehousing it, Power BI for reporting, a separate ML tool for predictions. Every team works off its own copy of the data so more duplication, more cost, more chances for numbers to disagree.
 
-**Microsoft Fabric** is a single platform that covers all of it — data ingestion, engineering, warehousing, reporting, and machine learning — so GreenCart's data engineers, analysts, and data scientists all work off the *same* underlying data instead of five different copies of it.
+**Microsoft Fabric** is a single platform that covers all of it — data ingestion, engineering, warehousing, reporting, and machine learning. So GreenCart's data engineers, analysts, and data scientists all work off the *same* underlying data instead of five different copies of it.
 
 ## OneLake — Fabric's Central Storage
 
-**OneLake** is Fabric's shared storage layer. Every Fabric tool — Power BI, Data Engineering, Data Warehouse, Data Science — reads from and writes to this one place. Think of it as **"OneDrive for GreenCart's company-wide data"** — one source, no duplicates, everyone working from the same numbers.
+**OneLake** is Fabric's shared storage layer. Every Fabric tool — Power BI, Data Engineering, Data Warehouse, Data Science reads from and writes to this one place. Think of it as **"OneDrive for GreenCart's company-wide data"** — one source, no duplicates, everyone working from the same numbers.
 
-If GreenCart's delivery data already lives somewhere else (say, an existing Azure data lake), Fabric doesn't need to copy it in — it can create a **Shortcut**, a live reference to the external data, so nothing gets duplicated.
+If GreenCart's delivery data already lives somewhere else (say, an existing Azure data lake), Fabric doesn't need to copy it in. It can create a **Shortcut**, a live reference to the external data, so nothing gets duplicated.
 
 ## Roles Inside Fabric
 
@@ -43,7 +43,7 @@ If GreenCart's delivery data already lives somewhere else (say, an existing Azur
 
 ## Preparing a Model for Copilot Q&A
 
-If GreenCart wants regional managers to ask questions like "what were our top products in Mumbai last week?" in plain English, the semantic model needs extra prep — called **Prep Data for AI**:
+If GreenCart wants regional managers to ask questions like "what were our top products in Mumbai last week?" in plain English, the semantic model needs extra prep called **Prep Data for AI**:
 
 - **Simplify the schema** — hide technical fields (`Cust_ID`) so Copilot's answers read naturally ("Customer Name," not a raw ID)
 - **Verified answers** — tell Copilot which existing visual answers a common question, so it reuses a trusted answer instead of guessing
